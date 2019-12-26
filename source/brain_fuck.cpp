@@ -1,3 +1,26 @@
+/*
+
+Hainault (a Brainfuck parser)
+
+A little information about Brainfuck: It's a joke programming language written
+by Urban Muller in 1993, with only eight commands.
+
+    + | Increment the value of the current cell
+    - | Decrement the value of the current cell
+    > | Move the pointer one position to the right
+    < | Move the pointer one position to the left
+    . | Print the ASCII value of the current cell
+    , | Get ASCII formatted input
+    [ | Start a loop, if the value of the current cell is non-zero
+    ] | Return to the start of a loop, if the current cell is non-zero
+
+Despite being simplistic, it's Turing complete (and an entertaining nightmare
+to use). If you're interested in this sort of thing, check out the website
+Esolangs (https://esolangs.org/wiki/Main_Page), and Urban's own inspiration:
+FALSE
+
+*/
+
 #include <vector>
 #include <map>
 #include <string>
